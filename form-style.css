@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+section {
+    margin: 200px 600px;
+    padding: 12px;
+    background-color: #24323d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border: solid;
+}
+h1 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+.fl {
+    margin-bottom: 20px;
+}
+#firstNameInput {
+    background-color: #24323d;
+    color: white;
+    margin: 5px;
+}
+#lastNameInput {
+    background-color: #24323d;
+    color: white;
+    margin: 5px;
+}
+.mail {
+    margin-bottom: 20px;
+    width: 432px;
+}
+#emailInput {
+    background-color: #24323d;
+    color: white;
+    width: 432px;
+}
+.pass {
+    margin-bottom: 20px;
+    width: 432px;
+}
+#passInput {
+    background-color: #24323d;
+    color: white;
+}
+.button-submit {
+    background-color: #1ab188;
+    padding: 8px 50px;
+    color: white;
+    font-weight: bold;
+    width: 435px;
+}
+
+.sign {
+    background-color: #1ab188;
+    color: white;
+    padding: 5px 50px;
+    text-decoration: none;
+    margin: -5px;
+}
+.login {
+    background-color: #425158;
+    color: white;
+    padding: 5px 50px;
+    text-decoration: none;
+    margin: -5px;
+
+}
