@@ -8,7 +8,7 @@ nav {
     margin-top: 20px;
 }
 section {
-    margin: 200px 600px;
+    margin: 209px 714px;
     padding: 12px;
     background-color: #24323d;
     color: white;
@@ -29,20 +29,22 @@ form {
     background-color: #24323d;
     color: white;
     margin: 5px;
+    width: 170px;
 }
 #lastNameInput {
     background-color: #24323d;
     color: white;
     margin: 5px;
+    width: 170px;
 }
 .mail {
     margin-bottom: 20px;
-    width: 432px;
+    width: 360px;
 }
 #emailInput {
     background-color: #24323d;
     color: white;
-    width: 432px;
+    width: 361px;
 }
 .pass {
     margin-bottom: 20px;
@@ -51,13 +53,14 @@ form {
 #passInput {
     background-color: #24323d;
     color: white;
+    width: 361px;
 }
 .button-submit {
     background-color: #1ab188;
     padding: 8px 50px;
     color: white;
     font-weight: bold;
-    width: 435px;
+    width: 370px;
 }
 
 .sign {
