@@ -2,25 +2,35 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-nav {
+.sign-log {
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 section {
-    margin: 209px 714px;
+    width: 400px;
+    height: 430px;
     padding: 12px;
     background-color: #24323d;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-h1 {
+h2 {
     text-align: center;
+    color: white;
+    padding-top: 15px;
 }
 form {
     text-align: center;
+    margin: auto;
 }
 .fl {
     margin-bottom: 20px;
@@ -30,12 +40,16 @@ form {
     color: white;
     margin: 5px;
     width: 170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #lastNameInput {
     background-color: #24323d;
     color: white;
     margin: 5px;
     width: 170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .mail {
     margin-bottom: 20px;
@@ -44,7 +58,8 @@ form {
 #emailInput {
     background-color: #24323d;
     color: white;
-    width: 361px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .pass {
     margin-bottom: 20px;
@@ -54,6 +69,8 @@ form {
     background-color: #24323d;
     color: white;
     width: 361px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .button-submit {
     background-color: #1ab188;
@@ -61,19 +78,21 @@ form {
     color: white;
     font-weight: bold;
     width: 370px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sign {
     background-color: #1ab188;
     color: white;
-    padding: 5px 50px;
+    padding: 20px 50px;
     text-decoration: none;
     margin: -5px;
 }
 .login {
     background-color: #425158;
     color: white;
-    padding: 5px 50px;
+    padding: 20px 50px;
     text-decoration: none;
     margin: -5px;
 
